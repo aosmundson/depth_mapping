@@ -80,6 +80,7 @@ int main(int argc, char **argv)
   z_correct(3,3) = 1;
 
   vox.setLeafSize(0.01f, 0.01f, 0.01f);
+  vox.setMinimumPointsNumberPerVoxel(3);
 
   while (ros::ok())
   {
